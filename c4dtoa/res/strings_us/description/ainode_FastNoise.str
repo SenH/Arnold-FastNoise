@@ -1,0 +1,24 @@
+STRINGTABLE ainode_FastNoise
+{
+    ainode_FastNoise                                "Arnold FastNoise node";
+
+    C4DAI_FASTNOISE_MAIN_GRP                        "Noise";
+    C4DAIP_FASTNOISE_NOISE_TYPE                     "Type";
+
+    C4DAI_FASTNOISE_FRACTAL_GRP                     "Fractal";
+    C4DAIP_FASTNOISE_FRACTAL_TYPE                   "Type";
+    C4DAIP_FASTNOISE_FRACTAL_OCTAVES                "Octaves";
+    C4DAIP_FASTNOISE_FRACTAL_LACUNARITY             "Lacunarity";
+    C4DAIP_FASTNOISE_FRACTAL_GAIN                   "Gain";
+
+    C4DAI_FASTNOISE_CELLULAR_GRP                    "Cellular";
+    C4DAIP_FASTNOISE_CELLULAR_DISTANCE_FUNCTION     "Distance";
+    C4DAIP_FASTNOISE_CELLULAR_RETURN_TYPE           "Type";
+    C4DAIP_FASTNOISE_CELLULAR_JITTER                "Jitter";
+
+    C4DAI_FASTNOISE_WARP_GRP                        "Warp";
+    C4DAIP_FASTNOISE_POSITION_WARP                  "Warp";
+    C4DAIP_FASTNOISE_POSITION_WARP_AMPLITUDE        "Amplitude";
+
+    C4DAI_FASTNOISE_COORDINATES_GRP                 "Coordinates";
+}

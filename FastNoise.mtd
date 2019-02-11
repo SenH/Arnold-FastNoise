@@ -1,0 +1,27 @@
+[node FastNoise]
+	c4d.classification 	STRING "texture"
+	c4d.menu 			STRING "texture"
+
+	[attr frequency]
+	softmin				FLOAT	0.1
+	softmax				FLOAT	32.0
+
+	[attr fractal_octaves]
+	softmin				INT		1
+	softmax				INT		8
+
+	[attr fractal_lacunarity]
+	softmin				FLOAT	0.0
+	softmax				FLOAT	4.0
+
+	[attr fractal_gain]
+	softmin				FLOAT	0.0
+	softmax				FLOAT	1.0
+
+	[attr cellular_jitter]
+	softmin				FLOAT	0.0
+	softmax				FLOAT	6.0
+
+	[attr position_warp_amplitude]
+	softmin				FLOAT	0.0
+	softmax				FLOAT	1.0
