@@ -52,6 +52,7 @@ static const char* noiseTypeNames[] =
 	"Simplex", 
 	"Simplex Fractal", 
 	"Cellular", 
+	"Cellular Fractal",
 	"White Noise",
 	"Cubic", 
 	"Cubic Fractal", 
@@ -62,7 +63,7 @@ static const char* fractalTypeNames[] =
 {
 	"FBM", 
 	"Billow", 
-	"Rigid Multi", 
+	"Ridge Multi", 
 	NULL
 };
 
